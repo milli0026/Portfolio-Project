@@ -144,3 +144,40 @@ hr {
   border-color: #7f7f7f;
   border-width: 1px;
 }
+
+@media (max-width: 600px) {
+  .portfolio-section {
+    display: block;
+    width: 100%;
+    margin-top: 40px;
+  }
+  .portfolio-text {
+    text-align: center;
+  }
+  .portfolio img {
+    max-width: 95%;
+    display: block;
+    margin: 30px auto;
+    border-radius: 7px;
+    border: solid;
+    border-color: #7f7f7f;
+    border-width: 1px;
+  }
+
+  .about-paragraphs {
+    display: block;
+  }
+  .about-images {
+    display: block;
+    margin-bottom: 20px;
+  }
+  .about-project-images {
+    display: block;
+    max-width: 95%;
+    margin: 20px auto;
+    border-radius: 7px;
+    border: solid;
+    border-color: #7f7f7f;
+    border-width: 1px;
+  }
+}
